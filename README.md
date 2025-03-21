@@ -18,10 +18,11 @@ C --> B
 i. Access the **Recovery tab** in the service properties.
 ii. **Set** the **first**, **second** and **subsequent failures** values to **Restart the Service**.
 iii. **Set** the value of **Restart service after** to **0** minutes
-iv. Click **Apply** and **OK**.
+iv. Click **Apply**.
 v. Access the **General tab** in the service property.
 vi. Make sure the service **Startup type** is set to **Automatic**.
 vii. **Start** the service.
+viii. Click **OK**.
 
 ![Windows Service](media/win_service.png)
 
