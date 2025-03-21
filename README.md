@@ -22,6 +22,7 @@ iv. Click **Apply** and **OK**.
 v. Access the **General tab** in the service property.
 vi. Make sure the service **Startup type** is set to **Automatic**.
 vii. **Start** the service.
+
 ![Windows Service](media/win_service.png)
 
 ## Uninstallation step
@@ -43,6 +44,7 @@ ii. Example of usage (`demo screens`).
 1. Simply create two internal tags named:
 i. `_SMTP_` of datatype **UdtSmtp**.
 ii. `_EMAIL_` of datatype **UdtEmail**.
+
 ![TIA Portal Tag Table](media/tags.png)
 
 ## Tested scope
