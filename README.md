@@ -24,6 +24,7 @@ vi. Make sure the service **Startup type** is set to **Automatic**.
 vii. **Start** the service.
 
 ![Windows Service](media/win_service.png)
+
 ![Service](media/service.png)
 
 ## Uninstallation step
