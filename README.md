@@ -10,19 +10,19 @@ A["Unified Email<br>Listener Service"] --> B[OpenPipe script<br>SendEmailScript.
 B --> C((Unified<br>PC RT))
 C --> B
 ```
-## Installation steps
+## Installation Steps
 1. **Download** the file package `Unified-EmailListenerService.zip` from this repository.
 2. **Unzip** the files to any location on the WinCC Unified PC RT station.
 3. **Run** the `install.bat` file to install the service.
-4. **Run windows** `services.msc` and search for the **UnifiedEmailListener** service.
-   4.1 Access the **Recovery tab** in the service properties.
-4.2 **Set** the **first**, **second** and **subsequent failures** values to **Restart the Service**.
-4.3 **Set** the value of **Restart service after** to **0** minutes
-⋅⋅* Click **Apply**.
-⋅⋅* Access the **General tab** in the service property.
-⋅⋅* Make sure the service **Startup type** is set to **Automatic**.
-⋅⋅* **Start** the service.
-⋅⋅* Click **OK**.
+4. **Run Windows** `services.msc` and search for the **UnifiedEmailListener** service.
+   1. **Access** the **Recovery tab** in the service properties.
+   2. **Set** the **first**, **second**, and **subsequent failures** values to **Restart the Service**.
+   3. **Set** the value of **Restart service after** to **0** minutes.
+   4. Click **Apply**.
+   5. **Access** the **General tab** in the service properties.
+   6. Make sure the service **Startup type** is set to **Automatic**.
+   7. **Start** the service.
+   8. Click **OK**.
 
 ![Windows Service](media/win_service.png)
 
