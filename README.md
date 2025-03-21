@@ -15,14 +15,14 @@ C --> B
 2. **Unzip** the files to any location on the WinCC Unified PC RT station.
 3. **Run** the `install.bat` file to install the service.
 4. **Run windows** `services.msc` and search for the **UnifiedEmailListener** service.
-⋅⋅1.Access the **Recovery tab** in the service properties.
-⋅⋅2.**Set** the **first**, **second** and **subsequent failures** values to **Restart the Service**.
-⋅⋅3.**Set** the value of **Restart service after** to **0** minutes
-⋅⋅4.Click **Apply**.
-⋅⋅5.Access the **General tab** in the service property.
-⋅⋅6.Make sure the service **Startup type** is set to **Automatic**.
-⋅⋅7.**Start** the service.
-⋅⋅8.Click **OK**.
+1. Access the **Recovery tab** in the service properties.
+2. **Set** the **first**, **second** and **subsequent failures** values to **Restart the Service**.
+3. **Set** the value of **Restart service after** to **0** minutes
+4. Click **Apply**.
+5. Access the **General tab** in the service property.
+6. Make sure the service **Startup type** is set to **Automatic**.
+7. **Start** the service.
+8. Click **OK**.
 
 ![Windows Service](media/win_service.png)
 
