@@ -1,5 +1,5 @@
 # Unified Email Listener Service
-A small piece of software that runs as a `windows service` that execute an OpenPipe script (`SendEmailScript.js`) that subscribe to some variables in the locally running `WinCC Unified PC RT` application. 
+A small piece of software that runs as a `windows service` that executes an OpenPipe script (`SendEmailScript.js`) that subscribe to some variables in the locally running `WinCC Unified PC RT` application. 
 
 I based my script on the example provided in ***DVD2*** of the TIA Portal V20 installation, with the OpenPipe SDK Comfort API `SendEmailSampleViaComfortLayer.js` and adapted the Tags it subscribes to, to fit my example.
 
