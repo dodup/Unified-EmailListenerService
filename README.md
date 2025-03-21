@@ -33,7 +33,7 @@ C --> B
 *Will delete the service even if it's currently running.
 
 ## Steps in TIA Portal
-1. **Download** the file `Unified-EmailListenerLibrary.zal20` from this repository and open it in the **Global libraries** area of TIA Portal.
+1. **Download** the file `Unified-EmailListenerLibrary.zal20` from this repository and open it in the **Global libraries** (compressed) area of TIA Portal.
 
 ### ***The library*** provided contains:
 1. **UDT types**:
