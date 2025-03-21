@@ -13,7 +13,7 @@ C --> B
 ## Installation steps
 1. **Download** the file package `Unified-EmailListenerService.zip` from this repository.
 2. **Unzip** the files to any location on the WinCC Unified PC RT station.
-3. **Run** the install.bat file to install the service.
+3. **Run** the `install.bat` file to install the service.
 4. **Run windows** `services.msc` and search for the **UnifiedEmailListener** service.
 i. Access the **Recovery tab** in the service properties.
 ii. **Set** the **first**, **second** and **subsequent failures** values to **Restart the Service**.
@@ -28,7 +28,7 @@ vii. **Start** the service.
 ![Service](media/service.png)
 
 ## Uninstallation step
-1. **Run** the uninstall.bat file to install the service.
+1. **Run** the `uninstall.bat` file to install the service.
 *Will delete the service even if it's currently running.
 
 ## Steps in TIA Portal
