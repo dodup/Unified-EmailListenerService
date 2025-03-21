@@ -32,7 +32,7 @@ vii. **Start** the service.
 *Will delete the service even if it's currently running.
 
 ## Steps in TIA Portal
-1. **Download** the file package `Unified-EmailListenerLibrary.zip` from this repository.
+1. **Download** the file `Unified-EmailListenerLibrary.zal20` from this repository and open it in the **Global libraries** area of TIA Portal.
 
 ***The library*** provided contains:
 1. UDT types:
@@ -40,7 +40,7 @@ i. `udtSmtp` that contains the elements for the **SMTP configuration**.
 ii. `udtEmail` that contains the **email parameters**; to, from, subject and content, but also the trigger bit.
 2. Master copies that contains:
 i. Example tag table `email` that contains two tags with the UDT's.
-ii. Example of usage (`demo screens`).
+ii. Example of usage (`BasicExample` & `AlarmToEmailExample`).
 
 ***Engineering*** a project:
 1. Simply create two internal tags named:
