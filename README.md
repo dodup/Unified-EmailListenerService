@@ -29,7 +29,7 @@ C --> B
 ![Service](media/service.png)
 
 ## Uninstallation step
-1. **Run** the `uninstall.bat` file to install the service.
+1. **Run** the `uninstall.bat` file to uninstall the service.
 *Will delete the service even if it's currently running.
 
 ## Steps in TIA Portal
